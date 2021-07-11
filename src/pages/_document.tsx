@@ -35,9 +35,12 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="pt-br">
         <Head>
           <link rel="shortcut icon" href="img/icon-512.png" />
+          <link rel="apple-touch-icon" href="/img/icon-512.png" />
+          <link rel="manifest" href="/manifest.json" />
+          <meta name="theme-color" content="#06092B" />
         </Head>
         <body>
           <Main />
